@@ -12,6 +12,18 @@ export default function GoogleMapDemo(){
       <span className="badge">جديد - عن بعد 100% بدون خروج</span>
       <h2 style={{marginTop:8}}>حساب Google Map لمحلك - يبان في البحث ويجيب اتصالات</h2>
       <p style={{color:'#64748b'}}>ننشئ لك حساب Google Business كامل: الاسم، العنوان على الخريطة، الهاتف، ساعات العمل، الصور، وزر واتساب. التسليم في 48 ساعة عبر واتساب فقط.</p>
+      <div className="grid2" style={{marginTop:14}}>
+        <div className="card" style={{background:'#fef2f2',borderColor:'#fecaca',textAlign:'center'}}>
+          <div style={{fontSize:28}}>❌</div>
+          <h3>قبل: محلك ما كيبانش</h3>
+          <div style={{background:'#fff',border:'1px solid #e5e7eb',borderRadius:10,padding:12,marginTop:8,color:'#9ca3af',fontSize:13}}>🔍 بحث: حلاقة مراكش<br/>... لا نتيجة لمحلك ...<br/>⭐ لا تقييمات - 📞 لا اتصال</div>
+        </div>
+        <div className="card" style={{background:'#f0fdf4',borderColor:'#bbf7d0',textAlign:'center'}}>
+          <div style={{fontSize:28}}>✅</div>
+          <h3>بعد: كيبان الأول ويجيب زبناء</h3>
+          <div style={{background:'#fff',border:'1px solid #e5e7eb',borderRadius:10,padding:12,marginTop:8,fontSize:13,color:'#334155'}}>📍 صالون النور - مراكش ⭐4.8 (120)<br/>📞 اتصال - 💬 واتساب - 🗺️ الطريق<br/>🕒 مفتوح الآن</div>
+        </div>
+      </div>
       <div className="grid2" style={{marginTop:16}}>
         <div className="card">
           <h3>شنو كتستلم بـ 200 درهم؟</h3>
