@@ -81,6 +81,15 @@ function Home({lang}){
         <div className="card" style={{borderColor:'#fde68a',background:'linear-gradient(135deg,#fef3c7,#fff)'}}><div className="service-icon" style={{background:'#fef3c7'}}><Dog size={20}/></div><h3>🐶 حضانة وترويض الكلاب - مراكش</h3><p style={{color:'#64748b',fontSize:13}}>نزهة ساعة يومياً + مبيت ورعاية + ترويض منزلي - مراكش فقط - ابتداء من 100 درهم</p><a href="/seo-dog" className="btn btn-primary" style={{marginTop:8,display:'inline-block'}}>شاهد التفاصيل</a></div>
         <div className="card"><div className="service-icon"><Zap/></div><h3>مولد السيرة الذاتية</h3><p style={{color:'#64748b',fontSize:13}}>قوالب AR/FR/EN/CA كندي - 5 قوالب PDF</p><div className="price">49 درهم</div></div>
       </section>
+      <section style={{marginTop:12}}>
+        <h2 style={{marginBottom:4}}>📁 نماذج من أعمالنا</h2>
+        <p style={{color:'#64748b',fontSize:13}}>شوف الجودة بعينيك قبل ما تطلب - حمّل مثال أو جرّب بنفسك.</p>
+        <div className="grid3" style={{marginTop:10}}>
+          <div className="card"><h3>CV كندي مقبول</h3><p style={{color:'#64748b',fontSize:13}}>مثال PDF جاهز للإرسال للشركات.</p><div style={{display:'flex',gap:8,marginTop:10,flexWrap:'wrap'}}><a href="/samples/cv-exemple.pdf" target="_blank" className="btn btn-outline">حمّل المثال</a><a href="/cv" className="btn btn-primary">صايب ديالك - 49 درهم</a></div></div>
+          <div className="card"><h3>فاتورة احترافية</h3><p style={{color:'#64748b',fontSize:13}}>مثال: Café Al Baraka - 1800 درهم TTC.</p><div style={{display:'flex',gap:8,marginTop:10,flexWrap:'wrap'}}><a href="/samples/facture-exemple.pdf" target="_blank" className="btn btn-outline">حمّل المثال</a><a href="/fatourati" className="btn btn-primary">جرّب فاتورتي</a></div></div>
+          <div className="card"><h3>Google Map لمحل</h3><p style={{color:'#64748b',fontSize:13}}>خريطة + هاتف + صور + تقييمات - تسليم 48 ساعة.</p><div style={{display:'flex',gap:8,marginTop:10,flexWrap:'wrap'}}><a href="/map-demo" className="btn btn-outline">شوف التفاصيل</a><a href={WHATSAPP_LINK} target="_blank" className="btn btn-primary">اطلب - 200 درهم</a></div></div>
+        </div>
+      </section>
 
     </div>
   )
