@@ -12,6 +12,7 @@ import ShopDemo from './pages/ShopDemo.jsx'
 import LogoDemo from './pages/LogoDemo.jsx'
 import CrmDemo from './pages/CrmDemo.jsx'
 import MirathDemo from './pages/MirathDemo.jsx'
+import GoogleMapDemo from './pages/GoogleMapDemo.jsx'
 import { dict } from './lib/i18n.js'
 
 const WHATSAPP_NUMBER = "212629277841" // غيره لرقمك
@@ -97,6 +98,7 @@ const services = [
   {icon: BarChart3, title:"كتابة محتوى SEO بالذكاء الاصطناعي", desc:"مقالات تظهر في Google وتجيب زوار", price:"300 درهم / 10 مقالات", benefits:["مقالات 800-1000 كلمة SEO","تظهر أولاً في Google","مقال واحد = 5 اتصالات/شهر لسنة","كلمات مفتاحية مدروسة"], link:"/seo-dog"},
   {icon: Dog, title:"حضانة ومبيت وترويض الكلاب - مراكش", desc:"نزهة ساعة/يوم + مبيت ورعاية + ترويض منزلي - مراكش فقط", price:"ابتداء من 100 درهم", benefits:["نزهة ساعة يومياً في حدائق مراكش","مبيت دافئ + أكل + نظافة","فيديو وصور يومية على واتساب","ترويض منزلي احترافي"]},
   {icon: FileText, title:"حاسبة الميراث والزكاة", desc:"حاسبة شرعية 2.5% + قسمة الميراث - مطلوبة جداً في Google", price:"200 درهم", benefits:["حساب الزكاة 2.5% تلقائياً","قسمة الميراث حسب الشرع","شهادة PDF","بدون إعلانات - تعمل بدون أنترنيت"], link:"/mirath-demo"},
+  {icon: Globe, title:"حساب Google Map للمحلات", desc:"ننشئ لك Google Business كامل: خريطة + هاتف + صور - تسليم 48 ساعة عن بعد", price:"200 درهم", benefits:["يبان محلك في Google و Maps ويجيب اتصالات","العنوان + الهاتف + ساعات العمل + صور","زر واتساب وطريق للمحل","شرح فيديو للتقييمات - عن بعد 100%"], link:"/map-demo"},
 ]
 
 function Services(){
@@ -178,6 +180,7 @@ export default function App(){
         <Route path="/logo-demo" element={<LogoDemo/>}/>
         <Route path="/crm-demo" element={<CrmDemo/>}/>
         <Route path="/mirath-demo" element={<MirathDemo/>}/>
+        <Route path="/map-demo" element={<GoogleMapDemo/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="*" element={<Home lang={lang}/>}/>
       </Routes>
